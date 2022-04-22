@@ -7,3 +7,14 @@ function addItem (item){
         basket.push(item); //adds new item to end of array
 return true;
 }
+addItem('apple');
+addItem('pinapple');
+addItem('pizza');
+addItem('waffles');
+function listItems(){
+   for ( product of basket) {
+       console.log('for loop in basket:',product);
+       
+   }
+}
+listItems();
