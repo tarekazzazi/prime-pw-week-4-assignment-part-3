@@ -12,9 +12,16 @@ addItem('pinapple');
 addItem('pizza');
 addItem('waffles');
 function listItems(){
-   for ( product of basket) {
-       console.log('for loop in basket:',product);
-       
+   for ( product of basket) { //checks to see
+       console.log('for loop in basket:',product); //logs products in basket
+    
    }
 }
 listItems();
+
+function empty() {
+    while (basket.length > 0) {
+        basket.pop();
+    }
+        
+}
