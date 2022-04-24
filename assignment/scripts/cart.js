@@ -7,21 +7,24 @@ function addItem (item){
         basket.push(item); //adds new item to end of array
 return true;
 }
-addItem('apple');
-addItem('pinapple');
-addItem('pizza');
-addItem('waffles');
+addItem('apple'); //added apple to basket array
+addItem('pinapple');//added pinapple to basket array
+addItem('pizza');//added pizza to basket array
+addItem('waffles');//added waffles to basket array
 function listItems(){
-   for ( product of basket) { //checks to see
+   for ( product of basket) { 
        console.log('for loop in basket:',product); //logs products in basket
     
    }
 }
-listItems();
+listItems();// calling function listItems
 
-function empty() {
-    while (basket.length > 0) {
-        basket.pop();
+function empty() { 
+    while (basket.length > 0) { //while the basket still holds more than zero items
+        basket.pop();//removes last item from basket array
     }
         
 }
+
+
+
